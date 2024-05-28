@@ -53,7 +53,7 @@ trait Loop
         if (PHP_SAPI !== 'cli' && PHP_SAPI !== 'phpdbg' && !$inited) {
             try {
                 if (\function_exists('set_time_limit')) {
-                    set_time_limit(-1);
+                    set_time_limit(0);
                 }
             } catch (Exception) {
             }

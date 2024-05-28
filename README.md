@@ -1,3 +1,5 @@
+# This package is a fork of danog with set_time_limit fix for frankenphp
+
 # MadelineProto, a PHP MTProto telegram client
 
 Created by <a href="https://daniil.it" target="_blank" rel="noopener">Daniil Gentili</a>
